@@ -1,4 +1,6 @@
 import plover  # type: ignore
+import plover.formatting  # type: ignore
+import plover.engine  # type: ignore
 import time
 
 def comment(engine: 'plover.engine.StenoEngine', argument: str)->None:
